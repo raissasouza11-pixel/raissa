@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+/* Conteúdo principal */
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* Artigos */
+article {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+article h2 {
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Código */
+pre {
+    background: #222;
+    color: #00ff88;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+/* Lista */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Rodapé */
+footer {
+    background: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
